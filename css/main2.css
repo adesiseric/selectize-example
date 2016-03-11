@@ -1,0 +1,43 @@
+.selectize-control.single .selectize-input, .selectize-dropdown.single {
+    border-color: #00CC66;
+    border-radius: 1px;
+}
+
+.selectize-control.single .selectize-input {
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+}
+
+.selectize-control.single .selectize-input.selectize-focus {
+    border-color: #00CC66 !important;
+}
+
+.selectize-control.single .selectize-input:after {
+    content: url('../images/arrow-down-green.png');
+    right: 20px;
+    top: 6px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+}
+
+.selectize-control.single .selectize-input.focus:after {
+    content: url('../images/arrow-up-green.png');
+}
+
+
+
+.selectize-dropdown .active {
+    background-color: #00CC66;
+}
+
+.selectize-dropdown .active:hover {
+    background-color: #999999;
+}
